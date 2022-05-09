@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="332" id="YEi-OQ-6LV" customClass="VideosTableViewCell" customModule="NoName" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="474" height="332"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YEi-OQ-6LV" id="V7y-8i-8vH">
+                <rect key="frame" x="0.0" y="0.0" width="474" height="332"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="750" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WoF-wU-74N">
+                        <rect key="frame" x="20" y="21" width="434" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" systemColor="systemOrangeColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hs8-kC-LQx" customClass="LabelWithInsets" customModule="NoName" customModuleProvider="target">
+                        <rect key="frame" x="20" y="62.5" width="434" height="248.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="WoF-wU-74N" secondAttribute="trailing" constant="20" symbolic="YES" id="4RF-xG-cli"/>
+                    <constraint firstItem="Hs8-kC-LQx" firstAttribute="leading" secondItem="V7y-8i-8vH" secondAttribute="leading" constant="20" symbolic="YES" id="EBo-gf-QZ8"/>
+                    <constraint firstItem="WoF-wU-74N" firstAttribute="leading" secondItem="V7y-8i-8vH" secondAttribute="leading" constant="20" symbolic="YES" id="GhK-ri-NeC"/>
+                    <constraint firstItem="WoF-wU-74N" firstAttribute="top" secondItem="V7y-8i-8vH" secondAttribute="top" constant="21" id="JRN-at-uF5"/>
+                    <constraint firstAttribute="trailing" secondItem="Hs8-kC-LQx" secondAttribute="trailing" constant="20" symbolic="YES" id="NSm-jC-W7T"/>
+                    <constraint firstAttribute="bottom" secondItem="Hs8-kC-LQx" secondAttribute="bottom" constant="21" id="UaR-oP-QJD"/>
+                    <constraint firstItem="Hs8-kC-LQx" firstAttribute="top" secondItem="WoF-wU-74N" secondAttribute="bottom" constant="20" id="dig-NU-Jm0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="Hs8-kC-LQx" id="NA8-mA-L3y"/>
+                <outlet property="titleLabel" destination="WoF-wU-74N" id="eBd-yx-33I"/>
+            </connections>
+            <point key="canvasLocation" x="-727.536231884058" y="166.07142857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "videos[0].title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ChannelInfoViewController.viewDidLoad():ChannelInfoViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.videos">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RoundedButton.applyStyle():RoundedButton.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "layer.borderWidth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Files.API_URL3.getter:Files.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Files.videosId[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideosDetailsViewController.videosFetched(_:):VideosDetailsViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "VideosDetailsViewController.tableView(_:numberOfRowsInSection:):VideosDetailsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "videos.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Model.getResult(_:):Model.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Files.API_URL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
